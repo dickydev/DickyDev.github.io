@@ -72,6 +72,16 @@ body.dark .beker_tm_about{
 body.dark .beker_tm_services .service_list ul li .list_inner{
 	background-color: #12161F;
 }
+/* .list_inner img{
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.list_inner h3{
+  text-align: center;
+  
+} */
 body.dark .beker_tm_services .service_list ul li .list_inner:hover{
 	box-shadow: 4px 6px 19px 0px rgba(30,34,69,.1);
 }

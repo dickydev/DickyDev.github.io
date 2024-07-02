@@ -766,10 +766,22 @@ body.opened .beker_tm_hero .beker_tm_button{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
+
+.beker_tm_services .service_list ul li .list_inner .container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 100%;
+	
+	align-items: center;
+}
+.beker_tm_services .service_list ul li .list_inner .container img {
+	margin-right: 20px;
+}
 .beker_tm_services .service_list ul li .list_inner:hover{
 	box-shadow: 4px 6px 19px 0px rgba(30, 34, 69, 0.1);
 }
-.beker_tm_services .service_list ul li .svg{
+.beker_tm_services .service_list ul li img{
 	width: 60px;
 	height: 60px;
 	color: #0D28F9;
@@ -778,6 +790,7 @@ body.opened .beker_tm_hero .beker_tm_button{
 .beker_tm_services .service_list ul li .title{
 	font-size: 24px;
 	font-weight: 500;
+	
 	margin-bottom: 10px;
 }
 .beker_tm_services .service_list ul li .text{
